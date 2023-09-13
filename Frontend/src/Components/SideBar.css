@@ -1,0 +1,32 @@
+.side{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    min-height: 450px;
+    margin: 30px;
+    margin-top: 30px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    margin-left: 100px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.profile-item{
+    padding: 10px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+a.profile-item{
+    text-decoration: none;
+    color: black;
+}
+a.profile-item:hover{
+    background-color: rgb(145, 145, 145);
+    border-radius:10px;
+    color: white;
+}
+a.profile-item#eve{
+    background-color: rgb(145, 145, 145);
+    border-radius:10px;
+    color: white;
+}
